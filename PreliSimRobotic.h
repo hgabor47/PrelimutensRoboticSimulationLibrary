@@ -1,12 +1,20 @@
 #ifndef __HTTP_BLENDER_SERVER_H
 #define __HTTP_BLENDER_SERVER_H
 #include <Arduino.h>
+#include "blenderstruct.h"
+#include <ArduinoJson.h>
+#include <ArduinoJson.hpp>
 class ESP8266WebServer;
 typedef std::function< String(uint8_t,ESP8266WebServer *)> 	TBLENDERFunction;
-class HTTPBlenderServer
+
+class PreliSimRobotic
 {
   public:
-    HTTPBlenderServer(bool serial_debug=false);
+    StaticJsonDocument<200> doc;
+    BlenderStore * blenderinput;
+    bool PSIMULATION=false;
+
+    PreliSimRobotic();
 
     void setup(ESP8266WebServer *server)
     {
@@ -34,6 +42,7 @@ class HTTPBlenderServer
     void setAnswerFunction(TBLENDERFunction answer){
       _answer = answer;
     }
+    
 
   protected:
     void _setUpdaterError();
@@ -46,7 +55,10 @@ class HTTPBlenderServer
     bool _authenticated;
     String _updaterError;
     TBLENDERFunction _answer;
+
 };
+
+//String BlenderAnswer(uint8_t type,ESP8266WebServer * server);
 
 
 #endif
