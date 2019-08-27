@@ -39,5 +39,19 @@
             "*.pdf"
         ]
     }, 
+    "examples": [
+    	"[Ee]xamples/*.c",
+    	"[Ee]xamples/*.cpp",
+    	"[Ee]xamples/*.ino",
+    	"[Ee]xamples/*.pde",
+    	"[Ee]xamples/*/*.c",
+    	"[Ee]xamples/*/*.cpp",
+    	"[Ee]xamples/*/*.ino",
+    	"[Ee]xamples/*/*.pde",
+    	"[Ee]xamples/*/*/*.c",
+    	"[Ee]xamples/*/*/*.cpp",
+    	"[Ee]xamples/*/*/*.ino",
+    	"[Ee]xamples/*/*/*.pde"
+    ], 
     "id": 30
 }
