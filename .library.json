@@ -59,6 +59,5 @@
     	"[Ee]xamples/*/*/*.cpp",
     	"[Ee]xamples/*/*/*.ino",
     	"[Ee]xamples/*/*/*.pde"
-    ], 
-    "id": 30
+    ]
 }
