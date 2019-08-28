@@ -1,7 +1,7 @@
 # Prelimutens Robotic Simulation Library 
 
 Alpha stage: main functions working
-[![Documentation, examples, videos](https://github.com/hgabor47/PrelimutensRoboticSimulationLibrary.git)](https://github.com/hgabor47/PrelimutensRoboticSimulationLibrary.git)
+[Documentation, examples, videos](https://github.com/hgabor47/PrelimutensRoboticSimulationLibrary.git)
 
 This library is the Arduino side of our Blender <-> Arduino Robotic Simulation interface (aka PreliRobotic) 
 
