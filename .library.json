@@ -15,6 +15,13 @@
     "platforms": [
         "espressif8266" 
     ], 
+    "dependencies": [
+     {
+      "name": "ArduinoJson",
+      "version": ">=6.11.3",
+      "platforms": "espressif8266"
+     }
+    ],
     "authors": [
         {
             "email": "info@hgplsoft.com", 
