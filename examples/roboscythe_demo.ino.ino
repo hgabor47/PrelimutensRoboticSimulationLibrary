@@ -22,13 +22,8 @@ int i=0;
 double r=0;
 
 void BlenderAnswerInit(){
-    blenderinput->save( "magx" ,(double)0);
-    blenderinput->save( "magy",(double)0);
-    blenderinput->save( "magz",(double)0);
-    blenderinput->save("senBL",(uint8_t)0);
-    blenderinput->save("senBR",(uint8_t)0);
-    blenderinput->save("senFL",(uint16_t)0);
-    blenderinput->save("senFR",(uint16_t)0);
+    blenderinput->save("IsenFR",(uint16_t)0);
+    blenderinput->save("Ihead",(double)0);
     //webprint(scyinfo.blenderinput->listAll());
 }
 
