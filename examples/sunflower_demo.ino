@@ -10,7 +10,7 @@ ESP8266WebServer BlenderServer(82);
 PreliSimRobotic BlenderService;
     
 #define STASSID0 "hgplsoft"
-#define STAPSK0  "7102237203210"
+#define STAPSK0  "xxx"
 #define LIMIT 5.0
     
 const char* otssid0 = STASSID0;
